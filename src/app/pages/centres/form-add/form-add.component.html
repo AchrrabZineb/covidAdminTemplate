@@ -1,0 +1,62 @@
+<div class="row">
+  <div class="col-md-12">
+    <nb-card>
+      <nb-card-header>Ajouter un nouveau centre</nb-card-header>
+      <nb-card-body>
+        <form>
+          <div class="form-group row">
+            <label for="inputname" class="label col-sm-3 col-form-label">Nom du centre</label>
+            <div class="col-sm-9">
+              <input type="text" nbInput fullWidth id="inputname" placeholder="Nom du centre">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputcapacite" class="label col-sm-3 col-form-label">Capacité</label>
+            <div class="col-sm-9">
+              <input type="number" nbInput fullWidth id="inputcapacite" placeholder="Capacité">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputaddress" class="label col-sm-3 col-form-label">Adresse</label>
+            <div class="col-sm-9">
+              <textarea nbInput fullWidth id="inputaddress" placeholder="Adresse"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="label col-sm-3 col-form-label">Ville</label>
+            <div class="col-sm-9">
+              <nb-card>
+                  <nb-select fullWidth selected="1" nbSearch>
+                    <nb-option value="1">safi</nb-option>
+                    <nb-option value="2">rabat</nb-option>
+                  </nb-select>
+              </nb-card>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="label col-sm-3 col-form-label">Responsable</label>
+            <div class="col-sm-9">
+              <nb-card>
+                  <nb-select fullWidth selected="1" nbSearch>
+                    <nb-option value="1">aaaaaaa</nb-option>
+                    <nb-option value="2">aaafrfr</nb-option>
+                  </nb-select>
+              </nb-card>
+            </div>
+          </div>
+
+          
+          <div class="form-group row">
+            <div class="offset-sm-3 col-sm-9">
+              <button type="submit" nbButton status="primary">Ajouter</button>
+            </div>
+          </div>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>
+
+
+
+
